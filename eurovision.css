@@ -1,0 +1,97 @@
+/* CSS file */
+.flag{
+	height: 50px;
+	width: 80px;
+}
+
+.NorwayBackground{
+	background-color:#F09091;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.NorwayTitle{
+	font-size:60px;
+	color:#0F2365;
+}
+
+.total{
+	background-color:Gold;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  font-size:20px;
+  background-color:LightCyan;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}    
+
+p{
+	padding-right: 10%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+h2{
+	font-size:30px;
+}
+
+h3{
+	font-size:25px;
+}
+
+.stars{
+	width: 640px;
+	height: 150px;
+}
+
+.HomepageBackground{
+	background-color:PowderBlue;
+	font-family: Georgia;
+}
+
+.CountryLink{
+	font-size: 30px;
+}
+
+.SwedenBackground{
+	background-color:#FFE991;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.SwedenTitle{
+	font-size:60px;
+	color:#005B8E;
+}
+
+.TwelvePoints{
+	font-weight:bold;
+}
+
+.CenterList1 {
+  text-align: center;
+}
+
+.CenterList2 {
+  display: inline-block;
+  text-align: left;
+}
+
+.FinlandPoster{
+	padding-right: 300px
+}
+
+.IsraelPoster{
+	padding-right: 600px
+}
+
+.ItalyPoster{
+	padding-right: 900px
+}
