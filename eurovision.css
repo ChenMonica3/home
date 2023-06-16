@@ -1,18 +1,121 @@
 /* CSS file */
-.flag{
-	height: 50px;
-	width: 80px;
+/* CSS for my home page */
+/* Setting the background for my home page */
+.HomepageBackground {
+	background-color:PowderBlue;
+	font-family: Georgia;
+}
+/* Setting the background for the list as well as moving it to the center */
+.ListBackground {
+	margin: auto;
+	text-align: center;
+	background-color:#9EC2C8;
+	width: 700px;
+	height: 830px;
+	border-style: solid;
+	border-color:black;
+	font-family: Monaco, Arial;
+}
+/* Editing the text in the list */
+.ListText {
+	display: inline-block;
+	text-align: left;
+	font-size:20px;
+}
+/* Setting the size for the posters that link to each countrys page */
+.poster {
+	height:18%;
+	width:18%;
+	transition: width 0.5s, height 0.5s;
+}
+/* Make the animation so that the poster pops out when you hover over it */
+.poster:hover{
+	width: 21%;
+	height: 21%;
+}
+/* Set the background for the home page */
+#HomeBackground{
+	background-color:#9EADC8;
+}
+/* Create the top box for the posters and the title */
+#HomeTop{
+	margin: auto;
+	text-align: center;
+	background-color:#C8B99E;
+	border-style: solid;
+	border-color:black;
+	font-size:180%;
+	font-family: Monaco, Arial;
+}
+/* Create boxes and change the text for the information paragraphs on the home page */
+.HomeInformation{
+	margin: auto;
+	text-align: center;
+	background-color:#7D91B6;
+	width: 1300px;
+	border-style:solid;
+	border-color:black;
+	font-family: Monaco, Arial;
+}
+
+.SwedenTitle{
+	font-size:60px;
+	color:#005B8E;
+}
+
+.SwedenBackground{
+	background-color:#FFF6CF;
+	text-align: center;
+	font-family: Monaco, Arial;
+}
+
+.FinlandTitle{
+	font-size:60px;
+	color:#1B467D;
+}
+
+.FinlandBackground{
+	background-color:#D4E1F1;
+	text-align: center;
+	font-family: Monaco, Arial;
+}
+
+.IsraelTitle{
+	font-size:60px;
+	color:#003AB7;
+}
+
+.IsraelBackground{
+	background-color:#D9E5FF;
+	text-align: center;
+	font-family: Monaco, Arial;
+}
+
+.ItalyTitle{
+	font-size:60px;
+	color:#CF2B36;
+}
+
+.ItalyBackground{
+	background-color:#CFEEDE;
+	text-align: center;
+	font-family: Monaco, Arial;
 }
 
 .NorwayBackground{
-	background-color:#F09091;
+	background-color:#F8D4D4;
 	text-align: center;
-	font-family: Georgia;
+	font-family: Monaco, Arial;
 }
 
 .NorwayTitle{
 	font-size:60px;
 	color:#0F2365;
+}
+
+.flag {
+	height: 50px;
+	width: 80px;
 }
 
 .total{
@@ -51,47 +154,15 @@ h3{
 	height: 150px;
 }
 
-.HomepageBackground{
-	background-color:PowderBlue;
-	font-family: Georgia;
-}
-
 .CountryLink{
 	font-size: 30px;
-}
-
-.SwedenBackground{
-	background-color:#FFE991;
-	text-align: center;
-	font-family: Georgia;
-}
-
-.SwedenTitle{
-	font-size:60px;
-	color:#005B8E;
 }
 
 .TwelvePoints{
 	font-weight:bold;
 }
 
-.CenterList1 {
-  text-align: center;
-}
-
-.CenterList2 {
-  display: inline-block;
-  text-align: left;
-}
-
-.FinlandPoster{
-	padding-right: 300px
-}
-
-.IsraelPoster{
-	padding-right: 600px
-}
-
-.ItalyPoster{
-	padding-right: 900px
+td*="12"{
+	font-weight:bold; 
+	background-color:red;
 }
