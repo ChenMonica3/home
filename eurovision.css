@@ -79,18 +79,18 @@
 .Source{
 	font-size: 5%;
 }
-
+/* Specify size and colour for Sweden's title */
 .SwedenTitle{
 	font-size:60px;
 	color:#005B8E;
 }
-
+/* Set the background for Sweden */
 .SwedenBackground{
 	background-color:#FFF6CF;
 	text-align: center;
 	font-family: Monaco, Arial;
 }
-
+/* Set the details for the information boxes */
 .SwedenInformation{
 	margin: auto;
 	text-align: center;
@@ -99,18 +99,18 @@
 	border-style:solid;
 	border-color:black;
 }
-	
+/* Specify size and colour for Finland's title */	
 .FinlandTitle{
 	font-size:60px;
 	color:#1B467D;
 }
-
+/* Set the background for Finland */
 .FinlandBackground{
 	background-color:#D4E1F1;
 	text-align: center;
 	font-family: Monaco, Arial;
 }
-
+/* Set the details for the information boxes */
 .FinlandInformation{
 	margin: auto;
 	text-align: center;
@@ -119,18 +119,18 @@
 	border-style:solid;
 	border-color:black;
 }
-
+/* Specify size and colour for Israel's title */
 .IsraelTitle{
 	font-size:60px;
 	color:#003AB7;
 }
-
+/* Set the background for Israel */
 .IsraelBackground{
 	background-color:#D9E5FF;
 	text-align: center;
 	font-family: Monaco, Arial;
 }
-
+/* Set the details for the information boxes */
 .IsraelInformation{
 	margin: auto;
 	text-align: center;
@@ -139,18 +139,18 @@
 	border-style:solid;
 	border-color:black;
 }
-
+/* Specify size and colour for Italy's title */
 .ItalyTitle{
 	font-size:60px;
 	color:#CF2B36;
 }
-
+/* Set the background for Italy */
 .ItalyBackground{
 	background-color:#CFEEDE;
 	text-align: center;
 	font-family: Monaco, Arial;
 }
-
+/* Set the details for the information boxes */
 .ItalyInformation{
 	margin: auto;
 	text-align: center;
@@ -159,28 +159,36 @@
 	border-style:solid;
 	border-color:black;
 }
-
-
+/* Set the background for Norway */
 .NorwayBackground{
 	background-color:#F8D4D4;
 	text-align: center;
 	font-family: Monaco, Arial;
 }
-
+/* Specify size and colour for Norway's title */
 .NorwayTitle{
 	font-size:60px;
 	color:#0F2365;
 }
-
+/* Set the details for the information boxes */
+.NorwayInformation{
+	margin: auto;
+	text-align: center;
+	background-color:#FFABAB;
+	width: 1300px;
+	border-style:solid;
+	border-color:black;
+}
+/* Set height and width for the flags */
 .flag {
 	height: 50px;
 	width: 80px;
 }
-
+/* Make the total in the table gold */
 .total{
 	background-color:Gold;
 }
-
+/* Center the table */
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -188,34 +196,29 @@
   font-size:20px;
   background-color:LightCyan;
 }
-
+/* Set background for the references */
 #References{
 	background-color:#A4D6F5;
 	font-size: 20px;
 	font-family: Monaco, Arial;
 }
-
+/* Set the border for the tables */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }    
-
+/* Set the font size and the distance away from the edges for all paragraph tags */
 p{
 	padding-right: 10%;
 	padding-left: 10%;
 	font-size: 20px;
 }
-
+/* Set the font size for all h2 tags */
 h2{
 	font-size:30px;
 }
-
+/* Set the width and the height for all star rating images*/
 .stars{
 	width: 640px;
 	height: 150px;
 }
-
-.CountryLink{
-	font-size: 30px;
-}
-
