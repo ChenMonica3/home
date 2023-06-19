@@ -3,7 +3,7 @@
 /* Setting the background for my home page */
 .HomepageBackground {
 	background-color:PowderBlue;
-	font-family: Georgia;
+	font-family: Monaco, Courier, Arial;
 }
 /* Setting the background for the list as well as moving it to the center */
 .ListBackground {
@@ -14,7 +14,7 @@
 	height: 830px;
 	border-style: solid;
 	border-color:black;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Editing the text in the list */
 .ListText {
@@ -45,7 +45,7 @@
 	border-style: solid;
 	border-color:black;
 	font-size:180%;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Create boxes and change the text for the information paragraphs on the home page */
 .HomeInformation{
@@ -55,11 +55,11 @@
 	width: 1300px;
 	border-style:solid;
 	border-color:black;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Format the bottom of the page for the reference and top of the page links */
 .HomeBottom{
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 	text-align: center;
 	font-size: 20px;
 }
@@ -67,7 +67,7 @@
 #Tierlist{
 	margin: auto;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 
 /* Specify the size of the validator images */
@@ -88,7 +88,7 @@
 .SwedenBackground{
 	background-color:#FFF6CF;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Set the details for the information boxes */
 .SwedenInformation{
@@ -108,7 +108,7 @@
 .FinlandBackground{
 	background-color:#D4E1F1;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Set the details for the information boxes */
 .FinlandInformation{
@@ -128,7 +128,7 @@
 .IsraelBackground{
 	background-color:#D9E5FF;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Set the details for the information boxes */
 .IsraelInformation{
@@ -148,7 +148,7 @@
 .ItalyBackground{
 	background-color:#CFEEDE;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Set the details for the information boxes */
 .ItalyInformation{
@@ -163,7 +163,7 @@
 .NorwayBackground{
 	background-color:#F8D4D4;
 	text-align: center;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Specify size and colour for Norway's title */
 .NorwayTitle{
@@ -200,12 +200,12 @@
 #References{
 	background-color:#A4D6F5;
 	font-size: 20px;
-	font-family: Monaco, Arial;
+	font-family: Monaco, Courier, Arial;
 }
 /* Set the border for the tables */
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+	border: 1px solid black;
+	border-collapse: collapse;
 }    
 /* Set the font size and the distance away from the edges for all paragraph tags */
 p{
